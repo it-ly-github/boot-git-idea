@@ -14,5 +14,7 @@ public class IocTest {
 //        System.out.println(smallDog);
 //        System.out.println(smallDog2);
         ((ClassPathXmlApplicationContext)context).close();
+
+        System.out.println("开发人员修改了");
     }
 }
