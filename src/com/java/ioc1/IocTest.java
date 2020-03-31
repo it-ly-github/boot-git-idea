@@ -16,5 +16,6 @@ public class IocTest {
         ((ClassPathXmlApplicationContext)context).close();
 
         System.out.println("开发人员修改了");
+        // 开发人员再次修改
     }
 }
